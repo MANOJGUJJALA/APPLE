@@ -1,8 +1,6 @@
-
-//*************** >>> C++ Program To Find Next Greatestnumber Using Same Digits Of Given Number <<< ***********
-
 #include<stdio.h>
 #include<string.h>
+
 
 void swap(char *a, char *b)     //  function to swap two digits 
 { 
@@ -78,6 +76,7 @@ int main()
 { 
     
     char a[100];
+    printf("enter number");
     scanf("%s",a);
     int n = strlen(a); 
     findNext(a, n); 
